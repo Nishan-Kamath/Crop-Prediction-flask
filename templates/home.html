@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crop yield prediction</title>
+    </head>
+    <body>
+        <form method="post" action="/predict">
+            <label>Enter temperature</label><br>
+            <input type="text" name="temperature" placeholder="temperature" value="35"><br><br>
+            <label>Enter humidity</label><br>
+            <input type="text" name="humidity" placeholder="humidity" value="80"><br><br>
+            <label>Enter ph</label><br>
+            <input type="text" name="ph" placeholder="ph" value="7"><br><br>
+            <label>Enter rainfall</label><br>
+            <input type="text" name="rainfall" placeholder="rainfall" value="460"><br><br>
+            <input type="submit" value="predict">
+        </form>
+    </body>
+</html>
